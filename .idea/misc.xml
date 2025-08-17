@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (Icebreaker)" project-jdk-type="Python SDK" />
+  <component name="Black">
+    <option name="sdkUUID" value="74c9e2d9-5130-4dc4-95a4-01e44bb65406" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 virtualenv at D:\LangChain\Icebreaker\.venv" project-jdk-type="Python SDK" />
 </project>
