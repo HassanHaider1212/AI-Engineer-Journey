@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_core.prompts import PromptTemplate
-from langchain_ollama import ChatOllama
+# from langchain_ollama import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
