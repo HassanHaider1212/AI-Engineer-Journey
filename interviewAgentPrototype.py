@@ -3,8 +3,12 @@ from langchain_core.prompts import PromptTemplate
 # from langchain_ollama import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
-llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
-
+# llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
+llm = ChatOpenAI(
+    model="gpt-3.5-turbo",
+    temperature=0,
+    api_key=st.secrets["OPENAI_API_KEY"]
+)
 # Load your local Ollama model (cached by Streamlit)
 # @st.cache_resource
 # def load_model():
