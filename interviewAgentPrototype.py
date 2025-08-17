@@ -2,13 +2,15 @@ import streamlit as st
 from langchain_core.prompts import PromptTemplate
 from langchain_ollama import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
+from langchain_openai import ChatOpenAI
+llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 
 # Load your local Ollama model (cached by Streamlit)
-@st.cache_resource
-def load_model():
-    return ChatOllama(model="mistral")   # or "llama3", depending on what you have installed
-
-llm = load_model()
+# @st.cache_resource
+# def load_model():
+#     return ChatOllama(model="mistral")   # or "llama3", depending on what you have installed
+#
+# llm = load_model()
 
 # Role-based questions
 ROLE_QUESTIONS = {
