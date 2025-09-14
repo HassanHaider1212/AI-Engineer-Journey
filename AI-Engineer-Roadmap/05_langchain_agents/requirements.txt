@@ -1,0 +1,69 @@
+# LangChain and AI Agents
+langchain>=0.0.200
+langchain-openai>=0.0.2
+langchain-community>=0.0.10
+langgraph>=0.0.20
+langsmith>=0.0.50
+
+# LLM Providers
+openai>=1.0.0
+anthropic>=0.3.0
+cohere>=4.0.0
+
+# Vector Databases
+chromadb>=0.4.0
+pinecone-client>=2.2.0
+weaviate-client>=3.15.0
+faiss-cpu>=1.7.0
+
+# Document Processing
+pypdf>=3.0.0
+python-docx>=0.8.11
+beautifulsoup4>=4.11.0
+markdown>=3.4.0
+
+# Web Scraping and APIs
+requests>=2.28.0
+aiohttp>=3.8.0
+selenium>=4.8.0
+scrapy>=2.6.0
+
+# Data Processing
+pandas>=1.4.0
+numpy>=1.21.0
+scipy>=1.8.0
+
+# API Development
+fastapi>=0.78.0
+uvicorn>=0.18.0
+streamlit>=1.12.0
+gradio>=3.20.0
+
+# Database
+sqlalchemy>=1.4.0
+redis>=4.0.0
+pymongo>=4.0.0
+
+# Monitoring and Logging
+wandb>=0.12.0
+mlflow>=1.28.0
+structlog>=22.3.0
+
+# Development and Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Jupyter
+jupyter>=1.0.0
+jupyterlab>=3.4.0
+ipywidgets>=7.7.0
+
+# Utilities
+tqdm>=4.64.0
+click>=8.1.0
+pyyaml>=6.0
+python-dotenv>=0.19.0
+tenacity>=8.0.0

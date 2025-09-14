@@ -1,0 +1,65 @@
+# Deep Learning Frameworks
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+tensorflow>=2.8.0
+tensorflow-datasets>=4.5.0
+keras>=2.8.0
+
+# Computer Vision
+opencv-python>=4.6.0
+albumentations>=1.2.0
+imgaug>=0.4.0
+
+# Natural Language Processing
+transformers>=4.20.0
+tokenizers>=0.12.0
+datasets>=2.0.0
+accelerate>=0.12.0
+
+# Audio Processing
+librosa>=0.9.0
+soundfile>=0.10.0
+speechrecognition>=3.10.0
+
+# Experiment Tracking
+wandb>=0.12.0
+mlflow>=1.28.0
+tensorboard>=2.8.0
+neptune-client>=0.16.0
+
+# Model Optimization
+onnx>=1.12.0
+onnxruntime>=1.12.0
+tensorrt>=8.4.0
+
+# Data Processing
+pandas>=1.4.0
+numpy>=1.21.0
+scipy>=1.8.0
+scikit-learn>=1.1.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+streamlit>=1.12.0
+
+# Development and Testing
+pytest>=7.0.0
+pytest-benchmark>=4.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Jupyter
+jupyter>=1.0.0
+jupyterlab>=3.4.0
+ipywidgets>=7.7.0
+
+# Utilities
+tqdm>=4.64.0
+click>=8.1.0
+pyyaml>=6.0
+python-dotenv>=0.19.0
+requests>=2.28.0
